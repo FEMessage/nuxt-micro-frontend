@@ -32,9 +32,20 @@ yarn add @hanxx/micro-nuxt -D # or npm install micro-front-end
 }
 ```
 
+## Module Options
+
+[Documents](https://github.com/lianghx-319/micro-nuxt/blob/master/lib/module.js)
+
+**path**: the MFE lifecycle hook file path
+
+**force**: skip version check and force to use this module
+
 ## Support Micro Front-End Framework
 - [x] [qiankun](https://github.com/umijs/qiankun)
 - [ ] [single-SPA](https://github.com/single-spa/single-spa) waiting for test and verify
+
+## LifeCycle hooks file example
+[Qiankun](https://github.com/lianghx-319/micro-nuxt/blob/master/example/mfe.js)
 
 ## Development
 
