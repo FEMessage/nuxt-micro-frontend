@@ -36,9 +36,11 @@ yarn add @femessage/nuxt-micro-frontend -D # or npm install micro-front-end
 
 [Documents](https://github.com/lianghx-319/micro-nuxt/blob/master/lib/module.js)
 
-**path**: the MFE lifecycle hook file path
+**path**: the MFE lifecycle hook file path relative to rootDir
 
 **force**: skip version check and force to use this module
+
+**unique**: If use qiankun, sub application's package name should unique. Set unique to true can create a unique umd target.
 
 ## Support Micro Front-End Framework
 - [x] [qiankun](https://github.com/umijs/qiankun)
@@ -72,5 +74,5 @@ Copyright (c) Han <xsytby1112@gmail.com>
 [codecov-src]: https://img.shields.io/codecov/c/github/.svg?style=flat-square
 [codecov-href]: https://codecov.io/gh/
 
-[license-src]: https://img.shields.io/npm/l/@femessage/nuxt-micro-frontendd.svg?style=flat-square
+[license-src]: https://img.shields.io/npm/l/@femessage/nuxt-micro-frontend.svg?style=flat-square
 [license-href]: https://npmjs.com/package/m@femessage/nuxt-micro-frontend
