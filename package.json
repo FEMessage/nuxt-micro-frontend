@@ -16,7 +16,8 @@
     "test": "yarn lint && jest"
   },
   "dependencies": {
-    "lodash.isempty": "^4.4.0"
+    "lodash.isempty": "^4.4.0",
+    "uniqid": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "latest",
