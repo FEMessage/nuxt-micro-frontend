@@ -12,22 +12,22 @@
 
 ## Setup
 
-1. Add `@hanxx/micro-nuxt` dependency to your project
+1. Add `@femessage/nuxt-micro-frontend` dependency to your project
 
 ```bash
-yarn add @hanxx/micro-nuxt -D # or npm install micro-front-end
+yarn add @femessage/nuxt-micro-frontend -D # or npm install micro-front-end
 ```
 
-2. Add `@hanxx/micro-nuxt` to the `modules` section of `nuxt.config.js`
+2. Add `@femessage/nuxt-micro-frontend` to the `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
     // Simple usage
-    '@hanxx/micro-nuxt',
+    '@femessage/nuxt-micro-frontend',
 
     // With options
-    ['@hanxx/micro-nuxt', { /* module options */ }]
+    ['@femessage/nuxt-micro-frontend', { /* module options */ }]
   ]
 }
 ```
@@ -60,11 +60,11 @@ yarn add @hanxx/micro-nuxt -D # or npm install micro-front-end
 Copyright (c) Han <xsytby1112@gmail.com>
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@hanxx/micro-nuxt/latest.svg?style=flat-square
-[npm-version-href]: https://npmjs.com/package/@hanxx/micro-nuxt
+[npm-version-src]: https://img.shields.io/npm/v/@femessage/nuxt-micro-frontend/latest.svg?style=flat-square
+[npm-version-href]: https://npmjs.com/package/@femessage/nuxt-micro-frontend
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/@hanxx/micro-nuxt.svg?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/@hanxx/micro-nuxt
+[npm-downloads-src]: https://img.shields.io/npm/dt/@femessage/nuxt-micro-frontend.svg?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/@femessage/nuxt-micro-frontend
 
 [circle-ci-src]: https://img.shields.io/circleci/project/github/.svg?style=flat-square
 [circle-ci-href]: https://circleci.com/gh/
@@ -72,5 +72,5 @@ Copyright (c) Han <xsytby1112@gmail.com>
 [codecov-src]: https://img.shields.io/codecov/c/github/.svg?style=flat-square
 [codecov-href]: https://codecov.io/gh/
 
-[license-src]: https://img.shields.io/npm/l/@hanxx/micro-nuxtd.svg?style=flat-square
-[license-href]: https://npmjs.com/package/m@hanxx/micro-nuxt
+[license-src]: https://img.shields.io/npm/l/@femessage/nuxt-micro-frontendd.svg?style=flat-square
+[license-href]: https://npmjs.com/package/m@femessage/nuxt-micro-frontend
