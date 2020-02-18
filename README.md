@@ -59,7 +59,7 @@ yarn add @femessage/nuxt-micro-frontend -D # or npm install micro-front-end
 
 [MIT License](./LICENSE)
 
-Copyright (c) Han <xsytby1112@gmail.com>
+Copyright (c) FEMessage
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/@femessage/nuxt-micro-frontend/latest.svg?style=flat-square
@@ -67,12 +67,6 @@ Copyright (c) Han <xsytby1112@gmail.com>
 
 [npm-downloads-src]: https://img.shields.io/npm/dt/@femessage/nuxt-micro-frontend.svg?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/@femessage/nuxt-micro-frontend
-
-[circle-ci-src]: https://img.shields.io/circleci/project/github/.svg?style=flat-square
-[circle-ci-href]: https://circleci.com/gh/
-
-[codecov-src]: https://img.shields.io/codecov/c/github/.svg?style=flat-square
-[codecov-href]: https://codecov.io/gh/
 
 [license-src]: https://img.shields.io/npm/l/@femessage/nuxt-micro-frontend.svg?style=flat-square
 [license-href]: https://npmjs.com/package/m@femessage/nuxt-micro-frontend
