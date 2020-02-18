@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 export default function (render) {
   if (!window.__POWERED_BY_QIANKUN__) {
     render()
