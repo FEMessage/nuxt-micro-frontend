@@ -12,8 +12,9 @@
   "scripts": {
     "dev": "nuxt example",
     "lint": "eslint --ext .js,.vue example lib test",
-    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
-    "test": "yarn lint && jest"
+    "test": "yarn lint && jest",
+    "stdver": "standard-version -m '[skip ci] chore(release): v%s'",
+    "release": "gren release --override"
   },
   "dependencies": {
     "lodash.isempty": "^4.4.0",
@@ -24,6 +25,7 @@
     "@babel/preset-env": "latest",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "@femessage/github-release-notes": "^0.19.0",
     "@nuxtjs/eslint-config": "latest",
     "@nuxtjs/module-test-utils": "latest",
     "babel-eslint": "latest",
@@ -37,5 +39,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gren": "@femessage/grenrc"
 }
