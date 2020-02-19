@@ -2,11 +2,9 @@
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![Circle CI][circle-ci-src]][circle-ci-href]
-[![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
-> Using front-end microservices with Nuxt, support qiankun now
+> Using frontend microservices with Nuxt, support qiankun now
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
@@ -15,7 +13,9 @@
 1. Add `@femessage/nuxt-micro-frontend` dependency to your project
 
 ```bash
-yarn add @femessage/nuxt-micro-frontend -D # or npm install micro-front-end
+yarn add @femessage/nuxt-micro-frontend -D 
+
+# or npm install micro-front-end
 ```
 
 2. Add `@femessage/nuxt-micro-frontend` to the `modules` section of `nuxt.config.js`
