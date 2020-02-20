@@ -1,8 +1,8 @@
 {
   "name": "@femessage/nuxt-micro-frontend",
-  "version": "2.11.0",
+  "version": "1.0.0",
   "description": "Using front-end microservices with Nuxt",
-  "repository": "",
+  "repository": "https://github.com/FEMessage/nuxt-micro-frontend",
   "license": "MIT",
   "author": "Han <xsytby1112@gmail.com>",
   "files": [
