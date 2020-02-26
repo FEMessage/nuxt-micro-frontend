@@ -1,4 +1,4 @@
-# Nuxt-Micro-Front-End
+# Nuxt-Micro-Frontend
 
 [![Build Status](https://badgen.net/travis/FEMessage/nuxt-micro-frontend/master)](https://travis-ci.com/FEMessage/nuxt-micro-frontend)
 [![NPM Download](https://badgen.net/npm/dm/@femessage/nuxt-micro-frontend)](https://www.npmjs.com/package/@femessage/nuxt-micro-frontend)
@@ -20,7 +20,7 @@ Using frontend microservices with Nuxt, support [qiankun](https://qiankun.umijs.
 ```bash
 yarn add @femessage/nuxt-micro-frontend -D 
 
-# or npm install micro-front-end
+# or npm install @femessage/nuxt-micro-frontend
 ```
 
 2. Add `@femessage/nuxt-micro-frontend` to the `modules` section of `nuxt.config.js`

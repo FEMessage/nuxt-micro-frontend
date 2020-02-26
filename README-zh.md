@@ -20,7 +20,7 @@
 ```bash
 yarn add @femessage/nuxt-micro-frontend -D 
 
-# or npm install micro-front-end
+# or npm install @femessage/nuxt-micro-frontend
 ```
 
 2. 添加 `@femessage/nuxt-micro-frontend` 到 `nuxt.config.js` 的 `modules` 属性中
