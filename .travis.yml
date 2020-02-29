@@ -8,7 +8,7 @@ git:
   depth: 30
 install:
   - yarn --frozen-lockfile
-  - yarn test && yarn stdver --first-release
+  - yarn test && yarn stdver
 after_script:
   - ./notify.sh
 cache: yarn
