@@ -1,0 +1,19 @@
+branches:
+  only:
+    - master
+language: node_js
+node_js:
+  - lts/*
+git:
+  depth: 30
+install:
+  - yarn --frozen-lockfile
+  - yarn test && yarn stdver --first-release
+after_script:
+  - ./notify.sh
+cache: yarn
+deploy:
+  - provider: npm
+    email: levy9527@qq.com
+    api_key: $NPM_TOKEN
+    skip-cleanup: true

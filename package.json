@@ -1,0 +1,43 @@
+{
+  "name": "@femessage/nuxt-micro-frontend",
+  "version": "1.0.0",
+  "description": "Using front-end microservices with Nuxt",
+  "repository": "https://github.com/FEMessage/nuxt-micro-frontend",
+  "license": "MIT",
+  "author": "Han <xsytby1112@gmail.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/module.js",
+  "scripts": {
+    "dev": "nuxt example",
+    "lint": "eslint --ext .js,.vue example lib test",
+    "test": "yarn lint && jest",
+    "stdver": "standard-version -m '[skip ci] chore(release): v%s'",
+    "release": "gren release --override"
+  },
+  "dependencies": {
+    "@nuxt/utils": "latest",
+    "lodash.isempty": "^4.4.0",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@femessage/github-release-notes": "^0.19.0",
+    "@nuxtjs/eslint-config": "latest",
+    "@nuxtjs/module-test-utils": "latest",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
+    "codecov": "latest",
+    "eslint": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gren": "@femessage/grenrc"
+}
