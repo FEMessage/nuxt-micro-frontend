@@ -14,6 +14,10 @@ export async function mount (render, props) {
   console.log('props from main framework', props)
 }
 
+export beforeUnmount(vm) {
+  console.log(vm)
+}
+
 export function unmount () {
   console.log('nuxt app unmount')
 }
