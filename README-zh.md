@@ -54,6 +54,8 @@ yarn add @femessage/nuxt-micro-frontend -D
 ## 微前端生命周期函数例子
 [Qiankun](https://github.com/lianghx-319/micro-nuxt/blob/master/example/mfe.js)
 
+- 增加了 `mounted` 和 `beforeUnmount` 两个钩子方便操作 vue 实例
+
 ## 开发
 
 1. 克隆此仓库
