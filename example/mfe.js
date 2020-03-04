@@ -14,7 +14,11 @@ export async function mount (render, props) {
   console.log('props from main framework', props)
 }
 
-export beforeUnmount(vm) {
+export function mounted (vm) {
+  console.log(vm)
+}
+
+export function beforeUnmount (vm) {
   console.log(vm)
 }
 

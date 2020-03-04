@@ -54,6 +54,8 @@ yarn add @femessage/nuxt-micro-frontend -D
 ## LifeCycle hooks file example
 [Qiankun](https://github.com/lianghx-319/micro-nuxt/blob/master/example/mfe.js)
 
+- add `mounted` and `beforeUnmount` hook to get vue instance
+
 ## Development
 
 1. Clone this repository
