@@ -3,7 +3,8 @@ const { resolve } = require('path')
 module.exports = {
   mode: 'spa',
   MFE: {
-    path: 'example/mfe.js'
+    path: 'example/mfe.js',
+    force: true
   },
   rootDir: resolve(__dirname, '..'),
   buildDir: resolve(__dirname, '.nuxt'),
