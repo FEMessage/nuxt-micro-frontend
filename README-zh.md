@@ -41,6 +41,8 @@ yarn add @femessage/nuxt-micro-frontend -D
 
 [文档](https://github.com/lianghx-319/micro-nuxt/blob/master/lib/module.js)
 
+> 推荐使用 `build.devMiddleware.headers` 属性来设置开发环境资源 http header, 可以查看 Nuxt API: The build Property > [devMiddleware](https://nuxtjs.org/api/configuration-build#devmiddleware)
+
 **path**: 微前端生命周期函数定义文件，相对 rootDir 的路径
 
 **force**: 强制使用模块功能，忽略 Nuxt 版本校验
