@@ -41,6 +41,8 @@ yarn add @femessage/nuxt-micro-frontend -D
 
 [Documents](https://github.com/lianghx-319/micro-nuxt/blob/master/lib/module.js)
 
+> If want to set headers recommend to set `build.devMiddleware.headers`, see Nuxt API: The build Property > [devMiddleware](https://nuxtjs.org/api/configuration-build#devmiddleware)
+
 **path**: the MFE lifecycle hook file path relative to rootDir
 
 **force**: skip version check and force to use this module
