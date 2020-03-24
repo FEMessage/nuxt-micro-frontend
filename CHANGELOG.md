@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/FEMessage/nuxt-micro-frontend/compare/v1.2.0...v1.3.0) (2020-03-24)
+
+
+### Features
+
+* 支持开发模式接入 qiankun 主应用 ([#8](https://github.com/FEMessage/nuxt-micro-frontend/issues/8)) ([a443d34](https://github.com/FEMessage/nuxt-micro-frontend/commit/a443d3440ec9e19f62b8e101638589906a3241ed))
+
 ## [1.2.0](https://github.com/FEMessage/nuxt-micro-frontend/compare/v1.1.0...v1.2.0) (2020-03-19)
 
 
