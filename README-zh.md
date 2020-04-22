@@ -39,7 +39,7 @@ yarn add @femessage/nuxt-micro-frontend -D
 
 ## 模块参数
 
-[文档](https://github.com/lianghx-319/micro-nuxt/blob/master/lib/module.js)
+[文档](https://github.com/FEMessage/micro-nuxt/blob/master/lib/module.js)
 
 > 推荐使用 `build.devMiddleware.headers` 属性来设置开发环境资源 http header, 可以查看 Nuxt API: The build Property > [devMiddleware](https://nuxtjs.org/api/configuration-build#devmiddleware)
 
@@ -54,7 +54,7 @@ yarn add @femessage/nuxt-micro-frontend -D
 - [ ] [single-SPA](https://github.com/single-spa/single-spa) 理论上可行，需要测试验证
 
 ## 微前端生命周期函数例子
-[Qiankun](https://github.com/lianghx-319/micro-nuxt/blob/master/example/mfe.js)
+[Qiankun](https://github.com/FEMessage/micro-nuxt/blob/master/example/mfe.js)
 
 - 增加了 `mounted` 和 `beforeUnmount` 两个钩子方便操作 vue 实例
 
