@@ -39,7 +39,7 @@ yarn add @femessage/nuxt-micro-frontend -D
 
 ## Module Options
 
-[Documents](https://github.com/lianghx-319/micro-nuxt/blob/master/lib/module.js)
+[Documents](https://github.com/FEMessage/micro-nuxt/blob/master/lib/module.js)
 
 > If want to set headers recommend to set `build.devMiddleware.headers`, see Nuxt API: The build Property > [devMiddleware](https://nuxtjs.org/api/configuration-build#devmiddleware)
 
@@ -54,7 +54,7 @@ yarn add @femessage/nuxt-micro-frontend -D
 - [ ] [single-SPA](https://github.com/single-spa/single-spa) waiting for test and verify
 
 ## LifeCycle hooks file example
-[Qiankun](https://github.com/lianghx-319/micro-nuxt/blob/master/example/mfe.js)
+[Qiankun](https://github.com/FEMessage/micro-nuxt/blob/master/example/mfe.js)
 
 - add `mounted` and `beforeUnmount` hook to get vue instance
 
