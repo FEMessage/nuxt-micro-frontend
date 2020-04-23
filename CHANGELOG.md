@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://github.com/FEMessage/nuxt-micro-frontend/compare/v1.4.0...v1.4.1) (2020-04-23)
+
+
+### Bug Fixes
+
+* better compatibility for hook ([d3f4522](https://github.com/FEMessage/nuxt-micro-frontend/commit/d3f4522579e156c735d40987c5f18b49a3ed9e78))
+* unmount function props parameter ([#14](https://github.com/FEMessage/nuxt-micro-frontend/issues/14)) ([8ec5489](https://github.com/FEMessage/nuxt-micro-frontend/commit/8ec54891e01df347b7a0ce5fe16aebd1020b11ad))
+
 ## [1.4.0](https://github.com/FEMessage/nuxt-micro-frontend/compare/v1.3.0...v1.4.0) (2020-04-22)
 
 
