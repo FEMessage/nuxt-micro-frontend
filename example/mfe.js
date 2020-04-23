@@ -27,7 +27,7 @@ export function update (vm, props) {
 }
 
 // call before qiankun call unmount
-export function beforeUnmount (vm) {
+export function beforeUnmount (vm, props) {
   console.log(vm)
 }
 
