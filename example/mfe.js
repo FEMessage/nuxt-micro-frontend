@@ -1,10 +1,4 @@
 /* eslint-disable no-console */
-export default function (render) {
-  if (!window.__POWERED_BY_QIANKUN__) {
-    render()
-  }
-}
-
 // qiankun bootstrap hook
 export function bootstrap () {
   console.log('nuxt app bootstraped')
@@ -18,7 +12,7 @@ export async function mount (render, props) {
 
 // call after nuxt rendered
 export function mounted (vm) {
-  console.log(vm)
+  console.log('mounted', vm)
 }
 
 // qiankun update hook
