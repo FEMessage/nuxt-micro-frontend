@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/FEMessage/nuxt-micro-frontend/compare/v1.4.1...v1.5.0) (2020-04-30)
+
+
+### Features
+
+* call mounted even not in qiankun ([#15](https://github.com/FEMessage/nuxt-micro-frontend/issues/15)) ([2f571cb](https://github.com/FEMessage/nuxt-micro-frontend/commit/2f571cbea77cd824f3c031fecbf85789ee20b9bc))
+
 ### [1.4.1](https://github.com/FEMessage/nuxt-micro-frontend/compare/v1.4.0...v1.4.1) (2020-04-23)
 
 
