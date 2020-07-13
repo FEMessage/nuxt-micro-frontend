@@ -37,7 +37,7 @@ yarn add @femessage/nuxt-micro-frontend -D
 
 ## Module Options
 
-[Documents](https://github.com/FEMessage/micro-nuxt/blob/master/lib/module.js)
+[Documents](https://github.com/FEMessage/nuxt-micro-frontend/blob/dev/lib/module.js)
 
 > If want to set headers recommend to set `build.devMiddleware.headers`, see Nuxt API: The build Property > [devMiddleware](https://nuxtjs.org/api/configuration-build#devmiddleware)
 
