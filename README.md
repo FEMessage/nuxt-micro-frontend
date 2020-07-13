@@ -11,8 +11,6 @@ Using frontend microservices with Nuxt, support [qiankun](https://qiankun.umijs.
 
 [中文](./README-zh.md)
 
-[📖 **Release Notes**](./CHANGELOG.md)
-
 ## Setup
 
 1. Add `@femessage/nuxt-micro-frontend` dependency to your project
