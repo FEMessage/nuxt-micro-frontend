@@ -64,7 +64,7 @@ yarn add @femessage/nuxt-micro-frontend -D
 
 1. 克隆此仓库
 2. 安装依赖 `yarn install` 或者 `npm install`
-3. 运行 `npm run dev` 启动开发服务
+3. 运行 `cd examples/normal && npm run dev` 启动开发服务
 
 ## License
 
