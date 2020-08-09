@@ -1,0 +1,46 @@
+{
+  "scripts": {
+    "start": "webpack-dev-server --mode=development --port 9000 --env.isLocal=true",
+    "lint": "eslint src --ext js",
+    "test": "cross-env BABEL_ENV=test jest --passWithNoTests",
+    "format": "prettier --write \"./**\"",
+    "build": "webpack --mode=production"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && concurrently yarn:test yarn:lint"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/runtime": "^7.8.7",
+    "@types/jest": "^25.2.1",
+    "@types/systemjs": "^6.1.0",
+    "babel-eslint": "^11.0.0-beta.2",
+    "concurrently": "^5.1.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.7.2",
+    "eslint-config-important-stuff": "^1.1.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "html-webpack-plugin": "^4.0.4",
+    "husky": "^4.2.3",
+    "jest": "^25.2.7",
+    "jest-cli": "^25.2.7",
+    "prettier": "^2.0.4",
+    "pretty-quick": "^2.0.1",
+    "serve": "^11.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-config-single-spa": "^1.4.1",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "import-html-entry": "^1.7.4",
+    "single-spa": "^5.3.1"
+  }
+}

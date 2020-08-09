@@ -49,12 +49,14 @@ yarn add @femessage/nuxt-micro-frontend -D
 
 **unique**: 由于 qiankun 需要一个唯一的包名区分多个子应用，如果懒得修改可以将这个属性设置为 `true`，这样会生成一个唯一的包名
 
+**output**: 由于接入不同的生态体系，需要不同的打包格式，这里可以根据 [webpack output](https://webpack.js.org/configuration/output/) 提供的选项进行注入
+
 ## 支持的微前端框架
 - [x] [qiankun](https://github.com/umijs/qiankun)
-- [ ] [single-SPA](https://github.com/single-spa/single-spa) 理论上可行，需要测试验证
+- [x] [single-SPA](https://github.com/single-spa/single-spa) demo 在 examples/single-spa-demo 下
 
 ## 微前端生命周期函数例子
-[Qiankun](https://github.com/FEMessage/micro-nuxt/blob/master/example/mfe.js)
+[Qiankun](https://github.com/FEMessage/micro-nuxt/blob/master/examples/normal/mfe.js)
 
 - 增加了 `mounted` 和 `beforeUnmount` 两个钩子方便操作 vue 实例
 

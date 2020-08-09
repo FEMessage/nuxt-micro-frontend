@@ -47,12 +47,14 @@ yarn add @femessage/nuxt-micro-frontend -D
 
 **unique**: If use qiankun, sub application's package name should unique. Set unique to true can create a unique umd target.
 
+**output**: If use the other micro library, probably need to config the [webpack output](https://webpack.js.org/configuration/output/) libraryTarget.
+
 ## Support Micro Front-End Framework
 - [x] [qiankun](https://github.com/umijs/qiankun)
-- [ ] [single-SPA](https://github.com/single-spa/single-spa) waiting for test and verify
+- [x] [single-SPA](https://github.com/single-spa/single-spa) example in examples/single-spa-demo
 
 ## LifeCycle hooks file example
-[Qiankun](https://github.com/FEMessage/micro-nuxt/blob/master/example/mfe.js)
+[Qiankun](https://github.com/FEMessage/micro-nuxt/blob/master/examples/normal/mfe.js)
 
 - add `mounted` and `beforeUnmount` hook to get vue instance
 
