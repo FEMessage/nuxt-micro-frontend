@@ -1,0 +1,21 @@
+{
+  "name": "single-spa-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:all": "concurrently \"yarn install:main\"  \"yarn install:nuxt\"",
+    "install:main": "cd main-project && yarn",
+    "install:nuxt": "cd nuxt-subapp && yarn",
+    "serve:all": "concurrently \"yarn serve:nuxt\" \"yarn serve:main\"",
+    "serve:main": "cd main-project && yarn start",
+    "serve:nuxt": "cd nuxt-subapp && yarn dev"
+  },
+  "keywords": [],
+  "author": "https://github.com/cjfff",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}

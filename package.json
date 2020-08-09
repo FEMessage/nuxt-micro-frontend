@@ -10,8 +10,7 @@
   ],
   "main": "lib/module.js",
   "scripts": {
-    "dev": "nuxt example",
-    "lint": "eslint --ext .js,.vue example lib test",
+    "lint": "eslint --ext .js,.vue lib test",
     "test": "yarn lint && jest",
     "stdver": "standard-version -m '[skip ci] chore(release): v%s'",
     "release": "gren release --override"

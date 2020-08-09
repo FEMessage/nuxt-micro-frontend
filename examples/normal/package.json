@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-subapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt-edge": "latest"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
