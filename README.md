@@ -65,7 +65,7 @@ yarn add @femessage/nuxt-micro-frontend -D
 
 1. Clone this repository
 2. Install dependencies using `yarn install` or `npm install`
-3. Start development server using `npm run dev`
+3. Start development server using `cd examples/normal && npm run dev`
 
 ## License
 

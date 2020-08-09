@@ -38,5 +38,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn test"
+    }
+  },
   "gren": "@femessage/grenrc"
 }
