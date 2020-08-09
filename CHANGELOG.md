@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/FEMessage/nuxt-micro-frontend/compare/v1.5.0...v1.6.0) (2020-08-09)
+
+
+### Features
+
+* support webpack.output config  ([#18](https://github.com/FEMessage/nuxt-micro-frontend/issues/18)) ([e44447d](https://github.com/FEMessage/nuxt-micro-frontend/commit/e44447d9544ed2badb19b59d6529c5805674f799))
+
+
+### Bug Fixes
+
+* test error ([#22](https://github.com/FEMessage/nuxt-micro-frontend/issues/22)) ([2f29018](https://github.com/FEMessage/nuxt-micro-frontend/commit/2f2901867e661275711830e0d188a646617b21a7))
+
 ## [1.5.0](https://github.com/FEMessage/nuxt-micro-frontend/compare/v1.4.1...v1.5.0) (2020-04-30)
 
 
