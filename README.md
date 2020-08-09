@@ -1,6 +1,6 @@
 # Nuxt-Micro-Frontend
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Build Status](https://badgen.net/travis/FEMessage/nuxt-micro-frontend/master)](https://travis-ci.com/FEMessage/nuxt-micro-frontend)
@@ -83,6 +83,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://www.ccc1996.cn"><img src="https://avatars1.githubusercontent.com/u/20502762?v=4" width="100px;" alt=""/><br /><sub><b>cjf</b></sub></a><br /><a href="https://github.com/FEMessage/nuxt-micro-frontend/commits?author=cjfff" title="Code">💻</a> <a href="https://github.com/FEMessage/nuxt-micro-frontend/commits?author=cjfff" title="Documentation">📖</a> <a href="#blog-cjfff" title="Blogposts">📝</a></td>
+    <td align="center"><a href="https://github.com/lianghx-319"><img src="https://avatars2.githubusercontent.com/u/27187946?v=4" width="100px;" alt=""/><br /><sub><b>Han</b></sub></a><br /><a href="https://github.com/FEMessage/nuxt-micro-frontend/commits?author=lianghx-319" title="Code">💻</a> <a href="#content-lianghx-319" title="Content">🖋</a> <a href="#infra-lianghx-319" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
   </tr>
 </table>
 
