@@ -80,7 +80,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://www.ccc1996.cn"><img src="https://avatars1.githubusercontent.com/u/20502762?v=4" width="100px;" alt=""/><br /><sub><b>cjf</b></sub></a><br /><a href="https://github.com/FEMessage/nuxt-micro-frontend/commits?author=cjfff" title="Code">💻</a> <a href="https://github.com/FEMessage/nuxt-micro-frontend/commits?author=cjfff" title="Documentation">📖</a> <a href="#blog-cjfff" title="Blogposts">📝</a></td>
+    <td align="center"><a href="http://www.ccc1996.cn"><img src="https://avatars1.githubusercontent.com/u/20502762?v=4" width="100px;" alt=""/><br /><sub><b>cjf</b></sub></a><br /><a href="https://github.com/FEMessage/nuxt-micro-frontend/commits?author=cjfff" title="Code">💻</a> <a href="https://github.com/FEMessage/nuxt-micro-frontend/commits?author=cjfff" title="Documentation">📖</a> <a href="#blog-cjfff" title="Blogposts">📝</a> <a href="#example-cjfff" title="Examples">💡</a></td>
   </tr>
 </table>
 
