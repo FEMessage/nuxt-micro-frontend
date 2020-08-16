@@ -13,7 +13,8 @@
       "contributions": [
         "code",
         "doc",
-        "blog"
+        "blog",
+        "example"
       ]
     },
     {
@@ -33,5 +34,6 @@
   "projectOwner": "FEMessage",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "none"
 }
