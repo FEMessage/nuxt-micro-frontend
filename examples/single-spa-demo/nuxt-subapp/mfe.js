@@ -9,7 +9,6 @@ export default function(render) {
 export function bootstrap() {}
 
 export async function mount(render, props) {
-  await render()
 }
 
 export async function update() {}
