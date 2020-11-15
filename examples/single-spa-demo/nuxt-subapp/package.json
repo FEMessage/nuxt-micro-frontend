@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env HOST=0.0.0.0 PORT=7102 nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
+    "dev": "cross-env PROTOCOL=http HOST=0.0.0.0 PORT=7102 nuxt",
+    "build": "cross-env PROTOCOL=http HOST=domainWhereApplicationIsHosted.com PORT=7102 nuxt build",
+    "start": "cross-env PROTOCOL=http HOST=domainWhereApplicationIsHosted.com PORT=7102 nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
