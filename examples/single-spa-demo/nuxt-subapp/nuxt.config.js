@@ -82,7 +82,7 @@ export default {
     // Make sure all generated bundles and chunks point to your server.
     // If running in production meaning that the application will be built using npm run build && npm run start, point host to your domain.
     // This is done in package.json.
-    publicPath: `${process.env.PROTOCOL}://${process.env.HOST}:${process.env.PORT}/_nuxt/`,
+    publicPath: `//${process.env.HOST}:${process.env.PORT}/_nuxt/`,
     extend(config) {
 
       config.plugins.push(new StatsPlugin('manifest.json', {
