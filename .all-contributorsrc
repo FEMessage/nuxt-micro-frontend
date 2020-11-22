@@ -27,6 +27,15 @@
         "content",
         "infra"
       ]
+    },
+    {
+      "login": "munawarb",
+      "name": "Munawar Bijani",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2059556?v=4",
+      "profile": "https://github.com/munawarb",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
