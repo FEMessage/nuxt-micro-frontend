@@ -1,0 +1,26 @@
+{
+  "name": "femessage-qiankun-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "concurrently \"yarn install:nuxt-qiankun\"  \"yarn install:nuxt\"  \"yarn install:vue\"",
+    "install:nuxt-qiankun": "cd nuxt-qiankun-project && yarn",
+    "install:nuxt": "cd nuxt-subapp && yarn",
+    "install:vue": "cd vue-cli-subapp && yarn",
+    "serve:all": "concurrently \"yarn serve:nuxt-qiankun\" \"yarn serve:nuxt\" \"yarn serve:vue\"",
+    "serve:nuxt-qiankun": "cd nuxt-qiankun-project && yarn dev",
+    "serve:vue": "cd vue-cli-subapp && yarn serve",
+    "serve:nuxt": "cd nuxt-subapp  && yarn dev",
+    "build:all": "concurrently \"yarn build:nuxt-qiankun\" \"yarn build:vue\" \"yarn build:nuxt\"",
+    "build:nuxt-qiankun": "cd master && yarn build",
+    "build:nuxt": "cd nuxt-subapp && yarn build",
+    "build:vue": "cd vue-cli-subapp && yarn build"
+  },
+  "keywords": [],
+  "author": "https://github.com/cjfff",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}

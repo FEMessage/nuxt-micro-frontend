@@ -2,6 +2,13 @@ const StatsPlugin = require('stats-webpack-plugin')
 const path = require('path')
 
 export default {
+  // If we have server middleware, we need to call it using absolute paths instead of relative paths,
+  // since this application might be running under a different root project.
+  // So calling an endpoint that used to be /exampleEndpoint should be changed to process.env.baseURL/exampleEndpoint,
+  // otherwise the endpoint might resolve to the root application.
+  env: {
+    baseURL: `${process.env.PROTOCOL}://${process.env.HOST}:${process.env.PORT}`
+  },
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
@@ -72,6 +79,10 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    // Make sure all generated bundles and chunks point to your server.
+    // If running in production meaning that the application will be built using npm run build && npm run start, point host to your domain.
+    // This is done in package.json.
+    publicPath: `//${process.env.HOST}:${process.env.PORT}/_nuxt/`,
     extend(config) {
 
       config.plugins.push(new StatsPlugin('manifest.json', {

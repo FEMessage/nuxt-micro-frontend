@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-qiankun-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env PORT=7100 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.0",
+    "element-ui": "^2.13.2",
+    "nuxt-edge": "latest",
+    "qiankun": "^2.0.16"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  }
+}
