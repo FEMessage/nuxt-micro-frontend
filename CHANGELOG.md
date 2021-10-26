@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/FEMessage/nuxt-micro-frontend/compare/v1.5.0...v1.7.0) (2021-10-26)
+
+
+### Features
+
+* support webpack.output config  ([#18](https://github.com/FEMessage/nuxt-micro-frontend/issues/18)) ([e44447d](https://github.com/FEMessage/nuxt-micro-frontend/commit/e44447d9544ed2badb19b59d6529c5805674f799))
+
+
+### Bug Fixes
+
+* reference error in unmount if createApp failed ([#44](https://github.com/FEMessage/nuxt-micro-frontend/issues/44)) ([4c67052](https://github.com/FEMessage/nuxt-micro-frontend/commit/4c67052066ca1cd5cb71d0610f12114c7de210b0))
+* render twice and path resolution for production ([#29](https://github.com/FEMessage/nuxt-micro-frontend/issues/29)) ([363ab17](https://github.com/FEMessage/nuxt-micro-frontend/commit/363ab179e6fd81f43eeed25b1c591a55fc891a71))
+* test error ([#22](https://github.com/FEMessage/nuxt-micro-frontend/issues/22)) ([2f29018](https://github.com/FEMessage/nuxt-micro-frontend/commit/2f2901867e661275711830e0d188a646617b21a7))
+
 ## 1.6.0 (2020-08-09)
 
 
